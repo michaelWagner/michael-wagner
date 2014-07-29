@@ -32,7 +32,7 @@ ul {
   text-align: center;
 }
 
-.feature-container {
+.featured-container {
   width: 840px;
   margin: 0 auto;
 }
@@ -40,18 +40,20 @@ ul {
 .featured-site {
   width: 270px;
   height: 328px;
-  max-width: 270px;
+  /*max-width: 270px;*/
   background-color: #000000;
   float: left;
   margin-right: 15px;
-  margin-bottom: 5%;
+  text-decoration: none;
+  /*margin-bottom: 5%;*/
 }
 
 .featured-site:last-child {
   margin-right: 0;
 }
 
-.feature-image {
+.featured-image {
+  /*text-decoration: none;*/
   width: 100%;
   height: 75%;
   background-color: #949499;
@@ -60,10 +62,17 @@ ul {
 }
 
 .featured-title {
-  text-decoration: none;
+  /*text-decoration: none;*/
   text-align: center;
   height: 83px;
+  background-color: #000000;
+  font-size: 1.2em;
 }
+
+.featured-image:hover + .featured-title, .featured-title:hover + .featured-site {
+  color: #999;
+}
+
 
 .footer {
   height: 10%;
