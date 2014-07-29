@@ -59,6 +59,12 @@ ul {
   background-repeat: no-repeat;
 }
 
+.featured-title {
+  text-decoration: none;
+  text-align: center;
+  height: 83px;
+}
+
 .footer {
   height: 10%;
   width: 90%;
