@@ -11,6 +11,10 @@ ul {
   list-style-type: circle;
 }
 
+a:hover {
+  color: #999;
+}
+
 .navbar {
   width: 100%;
   height: 45%;
@@ -69,7 +73,7 @@ ul {
   font-size: 1.2em;
 }
 
-.featured-image:hover + .featured-title, .featured-title:hover + .featured-site {
+.featured-image:hover + .featured-title, .featured-title:hover {
   color: #999;
 }
 
