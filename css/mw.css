@@ -14,8 +14,9 @@ ul {
 a {
   color: #000000;
 }
+
 a:hover {
-  color: #999;
+  color: #666;
 }
 
 .navbar {
@@ -77,13 +78,11 @@ a:hover {
 .featured-site {
   width: 270px;
   height: 328px;
-  /*max-width: 270px;*/
   background-color: #000000;
   float: left;
   margin-right: 15px;
   text-decoration: none;
-  /*margin-bottom: 5%;*/
-  box-shadow: 10px 10px 5px #dadada;
+  box-shadow: 10px 10px 5px #ededed;
 }
 
 .featured-site:last-child {
@@ -91,25 +90,29 @@ a:hover {
 }
 
 .featured-image {
-  /*text-decoration: none;*/
   width: 100%;
   height: 75%;
-  background-color: #949499;
+  background-color: #FFFFFF;
   background-size: 270px;
   background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.featured-site:hover > .featured-image {
+  opacity: 1.0;
 }
 
 .featured-title {
-  /*text-decoration: none;*/
   text-align: center;
   height: 83px;
   background-color: #000000;
   font-size: 1.2em;
   color: #FFFFFF;
+  margin-top: 2px;
 }
 
 .featured-image:hover + .featured-title, .featured-title:hover {
-  color: #999;
+  color: #bababa;
 }
 
 
