@@ -1,9 +1,9 @@
 * {
   width: 100%;
   height: 100%;
-  background-color: #111;
+  background-color: #FFFFFF;
   margin: 0;
-  color: #FFFFFF;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,6 +11,9 @@ ul {
   list-style-type: circle;
 }
 
+a {
+  color: #000000;
+}
 a:hover {
   color: #999;
 }
@@ -18,20 +21,41 @@ a:hover {
 .navbar {
   width: 100%;
   height: 200px;
-  background-color: #000000;
+  background-color: #FFFFFF;
+}
+
+.nav-links {
+  height: 60px;
+  background-color: transparent;
+  margin-top: 100px;
+}
+.nav-menu-link-bio {
+  text-decoration: none;
+  margin: 100px 100px;
+}
+
+.nav-menu-link-projects {
+  text-decoration: none;
+  margin: 100px 100px;
+}
+
+.nav-menu-link-contact {
+  text-decoration: none;
+  margin: 100px 100px;
 }
 
 .logo {
-  background-size: 500px;
+  background-size: 325px;
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #FFFFFF;
   background-position: center;
+  z-index: 1000;
 }
 
 .container {
   width: 80%;
   height: 50%;
-  background-color: #111;
+  background-color: #FFFFFF;
   padding: 2% 10% 2% 10%;
 }
 
@@ -41,11 +65,13 @@ a:hover {
   padding: 0 5%;
   width: 90%;
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 .featured-container {
   width: 840px;
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
 
 .featured-site {
@@ -57,6 +83,7 @@ a:hover {
   margin-right: 15px;
   text-decoration: none;
   /*margin-bottom: 5%;*/
+  box-shadow: 10px 10px 5px #dadada;
 }
 
 .featured-site:last-child {
@@ -78,6 +105,7 @@ a:hover {
   height: 83px;
   background-color: #000000;
   font-size: 1.2em;
+  color: #FFFFFF;
 }
 
 .featured-image:hover + .featured-title, .featured-title:hover {
@@ -92,12 +120,15 @@ a:hover {
   margin: 270px 5% 10%;
   position: static;
   font-size: 0.8em;
+  background-color: #FFFFFF;
 }
 
 .copyright {
   float: left;
   text-align: left;
   width: 49%;
+  color: #000000;
+  font-size: 1.1em;
 }
 
 .contact {
