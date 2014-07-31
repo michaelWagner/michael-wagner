@@ -180,7 +180,7 @@ a:hover {
 @media screen and (max-width: 980px) {
   .featured-container {
     width: 100%;
-    height: 100%;
+    height: 92%;
     margin-left: 3.5%;
   }
 
@@ -233,19 +233,62 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 530px) {
   body {
     min-height: 500px;
   }
+
   .featured-container {
     width: 100%;
-    height: 340%;
-    margin-left: 10.2%;
+    height: 245%;
+    margin-left: 10.5%;
   }
 
+  .featured-site {
+    height: 25%;
+    margin: 15px 0 35px 0;
+  }
+
+  .featured-image {
+    background-size: 100%;
+    background-position: 0 0;
+  }
+
+  .spinner {
+    height: 28.7px;
+    width: 28.7px;
+    font-size: 1.32em;
+    margin: 10px 0 0 46.1%;
+  }
 }
 
 @media screen and (max-width: 410px) {
+  body {
+    min-height: 600px;
+  }
+
+  .logo {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-position: center;
+  }
+
+  .featured-container {
+    height: 195%;
+    margin-left: 10.2%;
+  }
+
+  .featured-site {
+    height: 25%;
+    width: 81%;
+    margin: 15px 0 40px 0;
+  }
+
+  .featured-title {
+    height: 40%;
+  }
+
   .copyright {
     font-size: 1em;
   }
@@ -254,4 +297,10 @@ a:hover {
     font-size: 0.9em;
   }
 
+  .spinner {
+    height: 24.9px;
+    width: 24.9px;
+    font-size: 1.2em;
+    margin: 5px 0 0 46.1%;
+  }
 }
