@@ -12,7 +12,7 @@ body {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 a {
@@ -68,8 +68,8 @@ a:hover {
 .mission-statement {
   font-size: 1.4em;
   height: 40%;
-  padding: 0 5%;
-  width: 90%;
+  padding: 0 15%;
+  width: 70%;
   text-align: center;
   background-color: #FFFFFF;
 }
@@ -158,6 +158,17 @@ a:hover {
   float: right;
   text-align: right;
   width: 49%;
+}
+
+@media screen and (min-width: 1054px) {
+  .mission-statement {
+    width: 50%;
+    padding: 0 24.5%;
+  }
+
+  .spinner {
+    margin: 10px 0 0 44%;
+  }
 }
 
 @media screen and (max-width: 1054px) {
@@ -274,6 +285,12 @@ a:hover {
     background-position: center;
   }
 
+  .mission-statement {
+    width: 90%;
+    height: 32%;
+    padding: 0 6.1%;
+  }
+
   .featured-container {
     height: 195%;
     margin-left: 10.2%;
@@ -286,7 +303,7 @@ a:hover {
   }
 
   .featured-title {
-    height: 40%;
+    height: 31%;
   }
 
   .copyright {
