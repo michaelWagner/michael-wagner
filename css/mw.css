@@ -96,10 +96,6 @@ a:hover {
   margin-bottom: 6px;
 }
 
-/*.nav-collapse li:hover {
-  border: inset #FFF;
-}*/
-
 .container {
   width: 80%;
   height: 75%;
@@ -177,12 +173,6 @@ a:hover {
   color: #bababa;
 }
 
-/*.featured-site:hover > .spinner:hover {
-  -ms-transform: rotate(30deg);  IE 9
-  -webkit-transform: rotate(30deg);  Chrome, Safari, Opera
-  transform: rotate(30deg);
-}*/
-
 .featured-site:hover .spinner {
   transform: rotate(90deg);
   transition-duration: 0.7s;
@@ -214,10 +204,6 @@ a:hover {
 }
 
 @media screen and (min-width: 1054px) {
-/*  .nav-container {
-    width: 26%;
-  }*/
-
   .mission-statement {
     width: 50%;
     padding: 0 24.5%;
