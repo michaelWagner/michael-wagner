@@ -1,7 +1,7 @@
 * {
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: transparent;
   margin: 0;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +15,10 @@ ul {
   list-style-type: none;
 }
 
+li {
+  background-color: transparent;
+}
+
 a {
   color: #000000;
 }
@@ -24,37 +28,75 @@ a:hover {
 }
 
 .navbar {
-  width: 100%;
-  height: 200px;
-  background-color: #FFFFFF;
+/*  width: 100%;
+  height: 200px;*/
+  padding: 30px 0 0;
+  overflow: visible;
+  height: 243px;
 }
 
-.nav-links {
-  height: 60px;
+/*.nav-container {
+  width: auto;
+  position: relative;
+  margin: 0 auto;
+}*/
+
+.nav-container {
+  width: 80%;
+  height: 71%;
   background-color: transparent;
-  margin-top: 100px;
-}
-.nav-menu-link-bio {
-  text-decoration: none;
-  margin: 100px 100px;
+  padding: 0% 10%;
+  position: relative;
 }
 
-.nav-menu-link-projects {
-  text-decoration: none;
-  margin: 100px 100px;
-}
-
-.nav-menu-link-contact {
-  text-decoration: none;
-  margin: 100px 100px;
-}
+/*.nav-links, .logo {
+  position: absolute;
+}*/
 
 .logo {
   background-size: 325px;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
-  background-position: center;
-  z-index: 1000;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+  /*left: 34%;*/
+  width: 411px;/*382px;*/
+  background-position: 43px center;
+  margin: 0 auto;
+}
+
+.nav-links {
+  padding: 0;
+  margin: 0 auto;
+  width: 454px;
+  height: 74px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+}
+
+.bio-link {
+  margin: 0 104px;
+}
+
+.projects-link {
+  float: left;
+  width: 49%;
+}
+
+.contact-link {
+  float: right;
+  width: 49%;
+  text-align: right;
+}
+
+.lab-link {
+  margin: 0 625px;
 }
 
 .container {
@@ -115,6 +157,7 @@ a:hover {
   font-size: 1.6em;
   text-align: center;
   margin: 10px 0 0 43%;
+  background-color: #FFFFFF;
 }
 
 .featured-title {
@@ -161,6 +204,10 @@ a:hover {
 }
 
 @media screen and (min-width: 1054px) {
+/*  .nav-container {
+    width: 26%;
+  }*/
+
   .mission-statement {
     width: 50%;
     padding: 0 24.5%;
@@ -189,6 +236,10 @@ a:hover {
 }
 
 @media screen and (max-width: 980px) {
+/*  .nav-container {
+    width: 87%;
+  }
+*/
   .featured-container {
     width: 100%;
     height: 92%;
