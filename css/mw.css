@@ -76,14 +76,13 @@ a:hover {
   display: none;
   float: right;
   margin: -90px 6%;
-  width: 46px;
+  width: 42px;
 }
 
 .nav-collapse li {
   height: 1px;
-  border: solid #222;
-  background-color: #222;
-  margin-bottom: 8px;
+  border-top: thick solid #222;
+  margin-bottom: 6px;
 }
 
 /*.nav-collapse li:hover {
@@ -292,7 +291,7 @@ a:hover {
   .logo {
     background-size: 140px;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 15px 0;
     width: 100%;
   }
 
@@ -311,6 +310,7 @@ a:hover {
 
   .navbar {
     height: 162px;
+    padding: 0;
   }
 }
 
