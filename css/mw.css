@@ -66,13 +66,21 @@ a:hover {
 
 .nav-menu-link {
   text-decoration: none;
+}
+
+.contact-link {
+  float: right;
+  width: 44%;
+  text-align: right;
+  margin-right: 12px;
   width: 20%;
   height: 25px;
 }
 
 .projects-link {
   float: left;
-  width: 49%;
+  width: 20%;
+  height: 25px;
 }
 
 .nav-collapse {
@@ -91,13 +99,6 @@ a:hover {
 /*.nav-collapse li:hover {
   border: inset #FFF;
 }*/
-
-.contact-link {
-  float: right;
-  width: 44%;
-  text-align: right;
-  margin-right: 12px;
-}
 
 .container {
   width: 80%;
