@@ -50,6 +50,7 @@ a:hover {
   width: 411px;
   background-position: 43px center;
   margin: 0 auto;
+  z-index: -1000;
 }
 
 .nav-links {
@@ -65,6 +66,8 @@ a:hover {
 
 .nav-menu-link {
   text-decoration: none;
+  width: 20%;
+  height: 25px;
 }
 
 .projects-link {
@@ -291,7 +294,7 @@ a:hover {
   .logo {
     background-size: 140px;
     background-repeat: no-repeat;
-    background-position: 15px 0;
+    background-position: 6% 0;
     width: 100%;
   }
 
