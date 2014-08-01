@@ -28,18 +28,10 @@ a:hover {
 }
 
 .navbar {
-/*  width: 100%;
-  height: 200px;*/
   padding: 30px 0 0;
   overflow: visible;
   height: 243px;
 }
-
-/*.nav-container {
-  width: auto;
-  position: relative;
-  margin: 0 auto;
-}*/
 
 .nav-container {
   width: 80%;
@@ -49,18 +41,13 @@ a:hover {
   position: relative;
 }
 
-/*.nav-links, .logo {
-  position: absolute;
-}*/
-
 .logo {
   background-size: 325px;
   background-repeat: no-repeat;
   background-color: transparent;
   position: relative;
   top: 0;
-  /*left: 34%;*/
-  width: 411px;/*382px;*/
+  width: 411px;
   background-position: 43px center;
   margin: 0 auto;
 }
@@ -80,24 +67,34 @@ a:hover {
   text-decoration: none;
 }
 
-.bio-link {
-  margin: 0 104px;
-}
-
 .projects-link {
   float: left;
   width: 49%;
 }
+
+.nav-collapse {
+  display: none;
+  float: right;
+  margin: -90px 6%;
+  width: 46px;
+}
+
+.nav-collapse li {
+  height: 1px;
+  border: solid #222;
+  background-color: #222;
+  margin-bottom: 8px;
+}
+
+/*.nav-collapse li:hover {
+  border: inset #FFF;
+}*/
 
 .contact-link {
   float: right;
   width: 44%;
   text-align: right;
   margin-right: 12px;
-}
-
-.lab-link {
-  margin: 0 625px;
 }
 
 .container {
@@ -119,7 +116,6 @@ a:hover {
 
 .featured-container {
   width: 840px;
-  /*height: 300%;*/
   margin: 0 auto;
   background-color: #FFFFFF;
 }
@@ -237,10 +233,6 @@ a:hover {
 }
 
 @media screen and (max-width: 980px) {
-/*  .nav-container {
-    width: 87%;
-  }
-*/
   .featured-container {
     width: 100%;
     height: 92%;
@@ -296,6 +288,32 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .logo {
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100%;
+  }
+
+  .nav-container {
+    padding: 0 0;
+    width: 100%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-collapse {
+    display: block;
+  }
+
+  .navbar {
+    height: 162px;
+  }
+}
+
 @media screen and (max-width: 530px) {
   body {
     min-height: 500px;
@@ -328,13 +346,6 @@ a:hover {
 @media screen and (max-width: 410px) {
   body {
     min-height: 600px;
-  }
-
-  .logo {
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-color: #FFFFFF;
-    background-position: center;
   }
 
   .mission-statement {
