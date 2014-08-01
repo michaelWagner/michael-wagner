@@ -67,8 +67,8 @@ a:hover {
 
 .nav-links {
   padding: 0;
-  margin: 0 auto;
-  width: 454px;
+  margin: -105px auto;
+  width: 480px;
   height: 74px;
 }
 
@@ -91,8 +91,9 @@ a:hover {
 
 .contact-link {
   float: right;
-  width: 49%;
+  width: 44%;
   text-align: right;
+  margin-right: 12px;
 }
 
 .lab-link {
