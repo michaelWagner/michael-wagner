@@ -1,8 +1,8 @@
 /* global $,document,console,Parse */
 $(document).ready(function() {
 
-    var parseAPPID = "1xW2AmMzvU7pukTxmXycGC6zVIsC9llnLesiGvXZ";
-    var parseJSID = "k8dOFpCbQcdyaGCDk9jytrlaGezfnGMIKsuy8veX";
+    var parseAPPID = "rpMuOEj73x3KogqxYiMPzjhTS2qjgZEYv3ZFM98l";
+    var parseJSID = "zrLDx7TuyJYClRPFc3D4PKfzyx52Iq861IlluXY4";
 
     Parse.initialize(parseAPPID, parseJSID);
     var MessageObject = Parse.Object.extend("MessageObject");
