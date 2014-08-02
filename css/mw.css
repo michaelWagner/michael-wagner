@@ -41,7 +41,8 @@ a:hover {
   position: relative;
 }
 
-a .logo {
+.logo {
+  display: block;
   background-size: 278px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -50,6 +51,12 @@ a .logo {
   width: 321px;
   background-position: 20px 0;
   margin: 0 auto;
+  z-index: 100;
+}
+
+.logo-link {
+  width: 100%;
+  height: 100%;
   z-index: 1000;
 }
 
@@ -91,9 +98,13 @@ a .logo {
 }
 
 .nav-collapse li {
-  height: 1px;
-  border-top: thick solid #222;
+  /*height: 1px;*/
+  /*border-top: thick solid #222;*/
+  border: thin solid #222;
+  height: 3px;
+  background-color: #222;
   margin-bottom: 6px;
+  border-radius: 100px;
 }
 
 .container {
@@ -106,7 +117,7 @@ a .logo {
 
 .mission-statement {
   font-size: 1.4em;
-  height: 40%;
+  height: 29%; /*40%;*/
   padding: 0 15%;
   width: 70%;
   text-align: center;
@@ -151,7 +162,7 @@ a .logo {
   height: 35px;
   border:4px double #222;
   border-radius: 100px;
-  font-size: 1.6em;
+  font-size: 1.87em;
   text-align: center;
   margin: 8px 0 0 41%;
   background-color: #FFFFFF;
@@ -164,7 +175,7 @@ a .logo {
   text-align: center;
   height: 83px;
   background-color: #000000;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #FFFFFF;
   padding-top: 2px;
 }
@@ -210,7 +221,7 @@ a .logo {
   }
 
   .spinner {
-    margin: 10px 0 0 44%;
+    margin: 10px 0 0 42%;
   }
 }
 
@@ -272,7 +283,7 @@ a .logo {
   }
 
   .spinner {
-    margin: 5px 0 0 47.1%;
+    margin: 5px 0 0 46.3%;
   }
 }
 
@@ -285,14 +296,24 @@ a .logo {
     height: 380%;
     margin-left: 10.2%;
   }
+
+  .spinner {
+    margin: 10px 0 0 46%;
+  }
 }
 
+@media screen and (max-width:736px) {
+  .spinner {
+    margin: 5px 0 0 44.6%;
+  }
+}
 @media screen and (max-width: 620px) {
-  a .logo {
+  .logo {
     background-size: 140px;
     background-repeat: no-repeat;
     background-position: 6% 0;
-    width: 100%;
+    margin-right: 76%;
+    width: 160px;
   }
 
   .nav-container {
@@ -338,8 +359,8 @@ a .logo {
   .spinner {
     height: 28.7px;
     width: 28.7px;
-    font-size: 1.32em;
-    margin: 10px 0 0 46.1%;
+    font-size: 1.52em;
+    margin: 10px 0 0 44.5%;
   }
 }
 
@@ -380,7 +401,7 @@ a .logo {
   .spinner {
     height: 24.9px;
     width: 24.9px;
-    font-size: 1.2em;
-    margin: 5px 0 0 46.1%;
+    font-size: 1.35em;
+    margin: 5px 0 0 43.6%;
   }
 }
