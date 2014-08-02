@@ -174,7 +174,7 @@ a:hover {
 }
 
 .featured-site:hover .spinner {
-  transform: rotate(90deg);
+  transform: rotate(2deg);
   transition-duration: 0.7s;
   transition-property: transform;
 }
