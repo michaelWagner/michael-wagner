@@ -208,10 +208,58 @@ a:hover {
   font-size: 1.1em;
 }
 
-.contact {
+.contact-email {
   float: right;
   text-align: right;
   width: 49%;
+}
+
+#response {
+  display:none;
+  padding: 5px;
+}
+
+#contactForm {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#name {
+  height: 30px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#email {
+  height: 30px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#message {
+  height: 200px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  resize: none
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.submit-button {
+  width: 50px;
+  height: 30px;
+  background-color: #bababa;
+}
+
+.submit-button:hover {
+  background-color: #999;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 1054px) {

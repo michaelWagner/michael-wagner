@@ -1,0 +1,50 @@
+<!doctype html>
+  <head>
+    <title>Contact Form</title>
+    <!-- We need the hosted versions of jQuery and the Parse library -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+
+    <script src="/js/emailer.js"></script>
+
+    <link href="css/mw.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="nav-container">
+        <a href="" class="logo" style="background-image:url(images/MW-logo-1.png);">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#" class="nav-menu-link projects-link">PROJECTS</a></li>
+          <li><a href="contact.html" class="nav-menu-link contact-link">CONTACT</a></li>
+        </ul>
+        <ul class="nav-collapse">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div id="response"></div>
+      <form id="contactForm" action="/forms.brace.io/wagnerdmike@gmail.com">
+        <label for="name">NAME:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required><br />
+
+        <label for="emailAddress">EMAIL ADDRESS:</label>
+        <input type="email" name="email" id="email" placeholder="Email address" required><br />
+
+        <label for="message">MESSAGE</label>
+        <textarea name="message" id="message" rows="5" cols="10" placeholder="Your message" required></textarea><br />
+
+        <button type="submit" class="submit-button" value="Send">SEND</button>
+      </form>
+    </div>
+
+    <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
