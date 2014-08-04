@@ -93,18 +93,62 @@ a:hover {
 .nav-collapse {
   display: none;
   float: right;
-  margin: -90px 6%;
+  margin: -99px 6%;
   width: 42px;
+  height: 32px;
+  padding: 5px 4px 0 2px;
+  border: solid #FFFFFF;
+  border-radius: 5px;
 }
 
 .nav-collapse li {
-  /*height: 1px;*/
-  /*border-top: thick solid #222;*/
   border: thin solid #222;
   height: 3px;
   background-color: #222;
   margin-bottom: 6px;
   border-radius: 100px;
+}
+
+.nav-collapse:hover > li {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.nav-collapse:hover {
+  background-color: #000;
+  border-color: #000
+}
+
+.nav-dropdown {
+  margin-top: 26px;
+  /*display: none;*/
+}
+
+.nav-dropdown li a {
+  display: none;
+}
+
+.nav-dropdown li a {
+  width: 138px;
+  height: 26px;
+  margin: -86px 62.7%;
+  overflow: visible;
+  border: solid #000;
+  color: #FFFFFF;
+  background-color: #000;
+  text-decoration: none;
+}
+
+.nav-dropdown li a:hover {
+  color: #bababa;
+}
+
+.mobile-contact {
+  margin: -86px;
+}
+
+.mobile-nav:hover + .nav-dropdown li a {
+  display: block;
 }
 
 .container {
