@@ -43,13 +43,13 @@ a:hover {
 
 .logo {
   display: block;
-  background-size: 278px;
+  background-size: 208px; /*278px;*/
   background-repeat: no-repeat;
   background-color: transparent;
   position: relative;
   top: 0;
   width: 321px;
-  background-position: 20px 0;
+  background-position: 56px 19px; /*20px 0;*/
   margin: 0 auto;
   z-index: 100;
 }
@@ -248,16 +248,15 @@ a:hover {
 .copyright {
   float: left;
   text-align: left;
-  width: 49%;
+  width: 69%;
   color: #000000;
-  font-size: 1.1em;
-}
+  font-size: 1.1em;}
 
-.contact-email {
+/*.contact-email {
   float: right;
   text-align: right;
   width: 49%;
-}
+}*/
 
 #response {
   display:none;
@@ -400,6 +399,7 @@ a:hover {
     margin: 5px 0 0 44.6%;
   }
 }
+
 @media screen and (max-width: 620px) {
   .logo {
     background-size: 140px;
