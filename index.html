@@ -6,71 +6,78 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link href="css/sidr.css" rel="stylesheet">
     <link href="css/mw.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="nav-container">
-        <a href="http://michaelwagner.github.io/michael-wagner/" class="logo" style="background-image:url(images/MW-logo-1.png);">
-        </a>
-        <ul class="nav-links">
-          <li><a href="#" class="nav-menu-link projects-link">PROJECTS</a></li>
-          <li><a href="contact.html" class="nav-menu-link contact-link">CONTACT</a></li>
-        </ul>
-        <a class="mobile-nav" href="#mobile-nav">
-          <ul class="nav-collapse">
-            <li></li>
-            <li></li>
-            <li></li>
+    <div class="site-wrapper">
+      <div class="navbar">
+        <div class="nav-container">
+          <a href="http://michaelwagner.github.io/michael-wagner/" class="logo" style="background-image:url(images/MW-logo-1.png);">
+          </a>
+          <ul class="nav-links">
+            <li><a href="#" class="nav-menu-link projects-link">PROJECTS</a></li>
+            <li><a href="contact.html" class="nav-menu-link contact-link">CONTACT</a></li>
           </ul>
-        </a>
-<!--         <ul class="nav-dropdown">
-          <li><a href="#" class="mobile-nav-menu-link mobile-projects">PROJECTS</a></li>
-          <li><a href="contact.html" class="mobile-nav-menu-link mobile-contact">CONTACT</a></li>
-        </ul> -->
+          <a class="mobile-nav toggle-nav" href="#sidr">
+            <ul class="nav-collapse">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </a>
+          <div id="sidr" class="sidr">
+            <ul>
+              <li><a href="#">Projects</a><li>
+              <li><a href="#">Contact</a><li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="mission-statement">
-        A passionate developer conveying complex ideas
-        through simplicity.
-      </div>
-      <div class="featured-container">
-        <a href="http://michaelwagner.github.io/modern-comforts/"
-           target="_blank"
-           class="featured-site">
-          <div class="featured-image"
-               style="background-image:url(images/modern_comforts.png);">
+      <div class="container">
+        <div class="mission-statement">
+          A passionate developer conveying complex ideas
+          through simplicity.
+        </div>
+        <div class="featured-container">
+          <a href="http://michaelwagner.github.io/modern-comforts/"
+             target="_blank"
+             class="featured-site">
+            <div class="featured-image"
+                 style="background-image:url(images/modern_comforts.png);">
+            </div>
+            <div class="featured-title">MODERN COMFORTS
+              <div class="spinner">+</div>
+            </div>
+          </a>
+          <a href="https://www.oppia.org/explore/9"
+             target="_blank"
+             class="featured-site">
+            <div class="featured-image"
+                 style="background-image:url(images/oppia-music.png);">
+            </div>
+            <div class="featured-title">OPPIA
+              <div class="spinner">+</div>
+            </div>
+          </a>
+          <a href="#" class="featured-site">
+            <div class="featured-image">
+            </div>
+            <div class="featured-title">SOMETHING ELSE
+              <div class="spinner">+</div>
+            </div>
+          </a>
+        </div>
+        <div class="footer">
+          <div class="footer-row">
+            <span class="copyright">Michael Wagner &copy; 2014</span>
           </div>
-          <div class="featured-title">MODERN COMFORTS
-            <div class="spinner">+</div>
-          </div>
-        </a>
-        <a href="https://www.oppia.org/explore/9"
-           target="_blank"
-           class="featured-site">
-          <div class="featured-image"
-               style="background-image:url(images/oppia-music.png);">
-          </div>
-          <div class="featured-title">OPPIA
-            <div class="spinner">+</div>
-          </div>
-        </a>
-        <a href="#" class="featured-site">
-          <div class="featured-image">
-          </div>
-          <div class="featured-title">SOMETHING ELSE
-            <div class="spinner">+</div>
-          </div>
-        </a>
-      </div>
-      <div class="footer">
-        <div class="footer-row">
-          <span class="copyright">Michael Wagner &copy; 2014</span>
-<!--           <span class="contact-email"><a href="wagnerdmike@gmail.com">wagnerdmike@gmail.com</a></span> -->
         </div>
       </div>
     </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/jquery.sidr.min.js"></script>
+    <script src="js/menu-toggle.js"></script>
   </body>
 </html>
