@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 $(window).resize(function() {
   console.log($(window).width());
-  if ($(window).width() > 601) {
-    jQuery.sidr('close', 'sidr', none);
+  if ($('#sidr').css('display') == 'block' && $(window).width() > 605) {
+    $('.toggle-nav').click();
   }
 });
