@@ -50,8 +50,7 @@ a:hover {
   top: 0;
   width: 321px;
   background-position: 56px 19px;
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0 auto;
   z-index: 100;
 }
 
@@ -402,6 +401,8 @@ a:hover {
     background-repeat: no-repeat;
     background-position: 6% 0;
     margin-right: 76%;
+    margin-top: 0;
+    margin-left: 0;
     width: 160px;
   }
 
