@@ -50,7 +50,8 @@ a:hover {
   top: 0;
   width: 321px;
   background-position: 56px 19px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: 0;
   z-index: 100;
 }
 
