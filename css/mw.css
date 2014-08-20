@@ -158,13 +158,23 @@ a:hover {
   position: relative;
 }
 
-.mission-statement {
+/*.mission-statement {
   font-size: 1.4em;
-  height: 29%; /*40%;*/
+  height: 29%;
   padding: 0 15%;
   width: 70%;
   text-align: center;
   background-color: #FFFFFF;
+}*/
+
+.mission-statement {
+  font-size: 1.4em;
+  height: 29%;
+  /*padding: 0 15%;*/
+  width: 346px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 0 auto;
 }
 
 .featured-container {
@@ -302,10 +312,10 @@ a:hover {
 }
 
 @media screen and (min-width: 1054px) {
-  .mission-statement {
+/*  .mission-statement {
     width: 50%;
     padding: 0 24.5%;
-  }
+  }*/
 
   .spinner {
     margin: 10px 0 0 42%;
@@ -422,6 +432,11 @@ a:hover {
   .navbar {
     height: 162px;
     padding: 0;
+  }
+
+  .mission-statement {
+    font-size: 1.3em;
+    width: 270px;
   }
 }
 
