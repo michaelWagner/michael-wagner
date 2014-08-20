@@ -93,10 +93,10 @@ a:hover {
 .nav-collapse {
   display: none;
   float: right;
-  margin: -99px 6%;
-  width: 42px;
-  height: 32px;
-  padding: 5px 4px 0 2px;
+  margin: -92px 6%;
+  width: 37px;
+  height: 26px;
+  padding: 3px 4px 2px 2px;
   border: solid #FFFFFF;
   border-radius: 5px;
 }
@@ -105,7 +105,7 @@ a:hover {
   border: thin solid #222;
   height: 3px;
   background-color: #222;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   border-radius: 100px;
 }
 
