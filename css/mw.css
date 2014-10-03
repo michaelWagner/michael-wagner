@@ -94,16 +94,16 @@ a:hover {
   display: none;
   float: right;
   margin: -92px 6%;
-  width: 37px;
-  height: 26px;
-  padding: 3px 4px 2px 2px;
+  width: 34px;
+  height: 25px;
+  padding: 3px 4px 0 2px;
   border: solid #FFFFFF;
   border-radius: 5px;
 }
 
 .nav-collapse li {
   border: thin solid #222;
-  height: 3px;
+  height: 2px;
   background-color: #222;
   margin-bottom: 5px;
   border-radius: 100px;
@@ -334,7 +334,7 @@ a:hover {
   }
 
   .featured-image {
-    background-size: 109% 100%;
+    background-size: 100% 100%;
     background-position: center;
   }
 }
