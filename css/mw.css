@@ -29,19 +29,20 @@ a:hover {
 
 .navbar {
   padding: 30px 0 0;
-  overflow: visible;
-  height: 214px;
+  overflow: hidden;
+  /*height: 214px;*/
+  height: 174px;
 }
 
 .nav-container {
-  width: 80%;
+  width: 81%;
   height: 71%;
   background-color: transparent;
-  padding: 0% 10%;
+  padding: 0% 9%;
   position: relative;
 }
 
-.logo {
+/*.logo {
   display: block;
   background-size: 208px;
   background-repeat: no-repeat;
@@ -52,6 +53,20 @@ a:hover {
   background-position: 56px 19px;
   margin: 0 auto;
   z-index: 100;
+}
+*/
+.logo {
+    background-color: transparent;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    background-size: 208px auto;
+    display: block;
+    height: 136px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 212px;
+    z-index: 100;
 }
 
 .logo-link {
@@ -184,12 +199,26 @@ a:hover {
   max-height: 1299px;
 }
 
+.projects-container {
+  /*width: 883px;*/
+  width: 855px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  max-height: 1299px;
+}
+
+.projects-wrapper {
+  height: 550px;
+}
+
 .featured-site {
   width: 270px;
   height: 328px;
   background-color: #000000;
   float: left;
+  margin-top: 25px;
   margin-right: 15px;
+  margin-bottom: 50px;
   text-decoration: none;
   box-shadow: 10px 10px 5px #ededed;
 }
@@ -244,6 +273,10 @@ a:hover {
   transition-property: transform;
 }
 
+/*.row-2 {
+  margin-top: 20px;
+}*/
+
 .footer {
   height: 30%;
   width: 81%;
@@ -254,10 +287,22 @@ a:hover {
   bottom: 7;
 }
 
+.projects-footer {
+  height: 3%;
+  width: 81%;
+  border-top: solid #222;
+  position: absolute;
+  font-size: 0.8em;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  top: 146%;
+}
+
 .copyright {
   float: left;
   text-align: left;
   width: 69%;
+  height: 100px;
   color: #000000;
   font-size: 1.1em;}
 
@@ -329,6 +374,12 @@ a:hover {
     margin-left: 3.5%;
   }
 
+  .projects-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 3.5%;
+  }
+
   .featured-site {
     width: 30%;
   }
@@ -341,6 +392,16 @@ a:hover {
 
 @media screen and (max-width: 980px) {
   .featured-container {
+    width: 100%;
+    height: 92%;
+    margin-left: 3.5%;
+  }
+
+  .projects-wrapper {
+    height: 450px;
+  }
+
+  .projects-container {
     width: 100%;
     height: 92%;
     margin-left: 3.5%;
@@ -359,6 +420,16 @@ a:hover {
 
 @media screen and (max-width: 880px) {
   .featured-container {
+    width: 100%;
+    height: 360%;
+    margin-left: 10.2%;
+  }
+
+  .projects-wrapper {
+    height: 1815px;
+  }
+
+  .projects-container {
     width: 100%;
     height: 360%;
     margin-left: 10.2%;
@@ -388,7 +459,14 @@ a:hover {
   body {
     min-height: 450px;
   }
+
   .featured-container {
+    width: 100%;
+    height: 380%;
+    margin-left: 10.2%;
+  }
+
+  .projects-container {
     width: 100%;
     height: 380%;
     margin-left: 10.2%;
@@ -434,9 +512,17 @@ a:hover {
     padding: 0;
   }
 
+  .projects-wrapper {
+    height: 1820px;
+  }
+
   .mission-statement {
     font-size: 1.3em;
     width: 270px;
+  }
+
+  .projects-footer {
+    height: 20px;
   }
 }
 
@@ -446,6 +532,22 @@ a:hover {
   }
 
   .featured-container {
+    width: 100%;
+    height: 245%;
+    margin-left: 10.5%;
+  }
+
+  .projects-wrapper {
+    height: 1570px;
+  }
+
+  .projects-container {
+    width: 100%;
+    height: 245%;
+    margin-left: 10.5%;
+  }
+
+  .projects-container {
     width: 100%;
     height: 245%;
     margin-left: 10.5%;
@@ -480,6 +582,10 @@ a:hover {
     padding: 0 6.1%;
   }
 
+  .projects-wrapper {
+    height: 405px;
+  }
+
   .featured-container {
     height: 195%;
     margin-left: 10.2%;
@@ -508,5 +614,11 @@ a:hover {
     width: 24.9px;
     font-size: 1.35em;
     margin: 5px 0 0 43.6%;
+  }
+
+  .projects-footer {
+    top: 445%;
+    margin: 0 auto;
+
   }
 }
