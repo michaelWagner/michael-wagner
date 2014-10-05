@@ -30,7 +30,6 @@ a:hover {
 .navbar {
   padding: 30px 0 0;
   overflow: hidden;
-  /*height: 214px;*/
   height: 174px;
 }
 
@@ -42,19 +41,6 @@ a:hover {
   position: relative;
 }
 
-/*.logo {
-  display: block;
-  background-size: 208px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  position: relative;
-  top: 0;
-  width: 321px;
-  background-position: 56px 19px;
-  margin: 0 auto;
-  z-index: 100;
-}
-*/
 .logo {
     background-color: transparent;
     background-position: 2px 2px;
@@ -168,39 +154,32 @@ a:hover {
 .container {
   width: 80%;
   height: 75%;
-  background-color: #FFFFFF;
   padding: 2% 10% 2% 10%;
   position: relative;
 }
 
-/*.mission-statement {
-  font-size: 1.4em;
-  height: 29%;
-  padding: 0 15%;
-  width: 70%;
-  text-align: center;
-  background-color: #FFFFFF;
-}*/
+.main-img {
+  background: url(../images/coffee.jpg) no-repeat center;
+  background-size: 100%;
+  background-position: top center;
+}
 
 .mission-statement {
   font-size: 1.4em;
-  height: 29%;
-  /*padding: 0 15%;*/
+  height: 59px;
   width: 346px;
   text-align: center;
   background-color: #FFFFFF;
-  margin: 0 auto;
+  margin: 265px auto 150px;
 }
 
 .featured-container {
-  width: 840px;
+  width: 100%;
   margin: 0 auto;
-  background-color: #FFFFFF;
   max-height: 1299px;
 }
 
 .projects-container {
-  /*width: 883px;*/
   width: 855px;
   margin: 0 auto;
   background-color: #FFFFFF;
@@ -213,7 +192,6 @@ a:hover {
 
 .featured-site {
   width: 270px;
-  /*height: 328px;*/
   height: 248px;
   background-color: #000000;
   float: left;
@@ -230,7 +208,6 @@ a:hover {
 
 .featured-image {
   width: 100%;
-  /*height: 75%;*/
   height: 100%;
   background-color: #FFFFFF;
   background-size: 270px;
@@ -242,20 +219,6 @@ a:hover {
 .featured-site:hover > .featured-image {
   opacity: 1.0;
 }
-
-/*.spinner {
-  width: 35px;
-  height: 35px;
-  border:4px double #222;
-  border-radius: 100px;
-  font-size: 1.87em;
-  text-align: center;
-  margin: 8px 0 0 41%;
-  background-color: #FFFFFF;
-  transform: rotate(-90deg);
-  transition-duration: 0.7s;
-  transition-property: transform;
-}*/
 
 .featured-title {
   text-align: center;
@@ -271,26 +234,26 @@ a:hover {
 }
 
 .featured-site:hover .featured-image {
-  /*transform: rotate(2deg);*/
   opacity: 1;
   transition-duration: 0.7s;
   transition-property: transform;
 }
 
 .footer {
-  height: 30%;
-  width: 81%;
-  border-top: solid #222;
+  height: 14%;
+  width: 80.3%;
+  border-top: solid thin #222;
   position: absolute;
   font-size: 0.8em;
   background-color: #FFFFFF;
   bottom: 7;
+  margin: 49px 9%;
 }
 
 .projects-footer {
   height: 3%;
-  width: 81%;
-  border-top: solid #222;
+  width: 80.3%;
+  border-top: solid thin #222;
   position: absolute;
   font-size: 0.8em;
   background-color: #FFFFFF;
@@ -302,7 +265,7 @@ a:hover {
   float: left;
   text-align: left;
   width: 69%;
-  height: 100px;
+  height: 51px;
   color: #000000;
   font-size: 1.1em;}
 
@@ -356,17 +319,6 @@ a:hover {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 1054px) {
-/*  .mission-statement {
-    width: 50%;
-    padding: 0 24.5%;
-  }*/
-
-/*  .spinner {
-    margin: 10px 0 0 42%;
-  }*/
-}
-
 @media screen and (max-width: 1054px) {
   .nav-container {
     width: 82%;
@@ -399,6 +351,10 @@ a:hover {
     width: 100%;
     height: 92%;
     margin-left: 3.5%;
+  }
+
+  .mission-statement {
+    /*margin-bottom: 22%;*/
   }
 
   .projects-wrapper {
@@ -458,10 +414,6 @@ a:hover {
     padding-top: 13px;
   }
 
-  .spinner {
-    margin: 5px 0 0 46.3%;
-  }
-
   .projects-footer {
     top: 2731px;
   }
@@ -484,14 +436,8 @@ a:hover {
     margin-left: 10.2%;
   }
 
-  .spinner {
-    margin: 10px 0 0 46%;
-  }
-}
-
-@media screen and (max-width:736px) {
-  .spinner {
-    margin: 5px 0 0 44.6%;
+  .mission-statement {
+    margin: 250px auto;
   }
 }
 
@@ -506,6 +452,9 @@ a:hover {
     width: 160px;
   }
 
+  .main-img {
+    height: 360px;
+  }
   .nav-container {
     padding: 0 0;
     width: 100%;
@@ -520,7 +469,7 @@ a:hover {
   }
 
   .navbar {
-    height: 162px;
+    height: 188px;
     padding: 0;
   }
 
@@ -528,13 +477,22 @@ a:hover {
     height: 1820px;
   }
 
+  .projects-footer {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .main-img {
+    /*height: 400px;*/
+    height: 263px;
+    /*margin: 99px 0 -89px;*/
+  }
+
   .mission-statement {
     font-size: 1.3em;
     width: 270px;
-  }
-
-  .projects-footer {
-    height: 20px;
+    margin: -94px auto;
   }
 }
 
@@ -548,6 +506,10 @@ a:hover {
     height: 245%;
     margin-left: 10.5%;
   }
+
+/*  .main-img {
+    height: 390px;
+  }*/
 
   .projects-wrapper {
     height: 1570px;
@@ -569,12 +531,6 @@ a:hover {
     background-position: 0 0;
   }
 
-  .spinner {
-    height: 28.7px;
-    width: 28.7px;
-    font-size: 1.52em;
-    margin: 10px 0 0 44.5%;
-  }
   .projects-footer {
     top: 2280px;
   }
@@ -587,9 +543,13 @@ a:hover {
 
   .mission-statement {
     width: 90%;
-    height: 30%;
-    padding: 0 6.1%;
+    /*height: 26%;*/
+    padding: 5px 6.1%;
   }
+
+/*  .main-img {
+    height: 329px;
+  }*/
 
   .projects-wrapper {
     height: 405px;
@@ -617,22 +577,19 @@ a:hover {
 
   .copyright {
     font-size: 1em;
+    height: 0;
   }
 
   span.contact > a {
     font-size: 0.9em;
   }
 
-  .spinner {
-    height: 24.9px;
-    width: 24.9px;
-    font-size: 1.35em;
-    margin: 5px 0 0 43.6%;
-  }
-
   .projects-footer {
     top: 445%;
     margin: 0 auto;
+  }
 
+  .footer {
+    height: 0;
   }
 }
