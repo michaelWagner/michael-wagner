@@ -108,7 +108,7 @@ a:hover {
 .nav-collapse {
   display: none;
   float: right;
-  margin: -92px 6%;
+  margin: -115px 6%;
   width: 34px;
   height: 25px;
   padding: 3px 4px 0 2px;
@@ -213,7 +213,8 @@ a:hover {
 
 .featured-site {
   width: 270px;
-  height: 328px;
+  /*height: 328px;*/
+  height: 248px;
   background-color: #000000;
   float: left;
   margin-top: 25px;
@@ -229,18 +230,20 @@ a:hover {
 
 .featured-image {
   width: 100%;
-  height: 75%;
+  /*height: 75%;*/
+  height: 100%;
   background-color: #FFFFFF;
   background-size: 270px;
   background-repeat: no-repeat;
   opacity: 0.8;
+  transition-property: transform;
 }
 
 .featured-site:hover > .featured-image {
   opacity: 1.0;
 }
 
-.spinner {
+/*.spinner {
   width: 35px;
   height: 35px;
   border:4px double #222;
@@ -252,7 +255,7 @@ a:hover {
   transform: rotate(-90deg);
   transition-duration: 0.7s;
   transition-property: transform;
-}
+}*/
 
 .featured-title {
   text-align: center;
@@ -267,15 +270,12 @@ a:hover {
   color: #bababa;
 }
 
-.featured-site:hover .spinner {
-  transform: rotate(2deg);
+.featured-site:hover .featured-image {
+  /*transform: rotate(2deg);*/
+  opacity: 1;
   transition-duration: 0.7s;
   transition-property: transform;
 }
-
-/*.row-2 {
-  margin-top: 20px;
-}*/
 
 .footer {
   height: 30%;
@@ -295,7 +295,7 @@ a:hover {
   font-size: 0.8em;
   background-color: #FFFFFF;
   margin: 0 auto;
-  top: 146%;
+  top: 119%;
 }
 
 .copyright {
@@ -362,12 +362,16 @@ a:hover {
     padding: 0 24.5%;
   }*/
 
-  .spinner {
+/*  .spinner {
     margin: 10px 0 0 42%;
-  }
+  }*/
 }
 
 @media screen and (max-width: 1054px) {
+  .nav-container {
+    width: 82%;
+  }
+
   .featured-container {
     width: 100%;
     height: 100%;
@@ -385,8 +389,8 @@ a:hover {
   }
 
   .featured-image {
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: 100% 132%;
+    background-position: center 0;
   }
 }
 
@@ -413,8 +417,12 @@ a:hover {
   }
 
   .featured-image {
-    background-size: 100% 120%;
+    background-size: 100% 117%;
     background-position: 0 0;
+  }
+
+  .projects-footer {
+    top: 693px;
   }
 }
 
@@ -452,6 +460,10 @@ a:hover {
 
   .spinner {
     margin: 5px 0 0 46.3%;
+  }
+
+  .projects-footer {
+    top: 2731px;
   }
 }
 
@@ -547,19 +559,13 @@ a:hover {
     margin-left: 10.5%;
   }
 
-  .projects-container {
-    width: 100%;
-    height: 245%;
-    margin-left: 10.5%;
-  }
-
   .featured-site {
     height: 25%;
     margin: 15px 0 35px 0;
   }
 
   .featured-image {
-    background-size: 100%;
+    background-size: cover;
     background-position: 0 0;
   }
 
@@ -568,6 +574,9 @@ a:hover {
     width: 28.7px;
     font-size: 1.52em;
     margin: 10px 0 0 44.5%;
+  }
+  .projects-footer {
+    top: 2280px;
   }
 }
 
@@ -595,6 +604,11 @@ a:hover {
     height: 25%;
     width: 81%;
     margin: 15px 0 40px 0;
+  }
+
+  .featured-image {
+    background-size: 100%;
+    background-position: 0 0;
   }
 
   .featured-title {
