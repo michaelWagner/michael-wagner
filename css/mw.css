@@ -484,9 +484,7 @@ a:hover {
 
 @media screen and (max-width: 560px) {
   .main-img {
-    /*height: 400px;*/
     height: 263px;
-    /*margin: 99px 0 -89px;*/
   }
 
   .mission-statement {
@@ -506,10 +504,6 @@ a:hover {
     height: 245%;
     margin-left: 10.5%;
   }
-
-/*  .main-img {
-    height: 390px;
-  }*/
 
   .projects-wrapper {
     height: 1570px;
@@ -543,13 +537,8 @@ a:hover {
 
   .mission-statement {
     width: 90%;
-    /*height: 26%;*/
     padding: 5px 6.1%;
   }
-
-/*  .main-img {
-    height: 329px;
-  }*/
 
   .projects-wrapper {
     height: 405px;
