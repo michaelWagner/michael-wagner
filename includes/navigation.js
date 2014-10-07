@@ -1,0 +1,15 @@
+document.write('<div class="navbar">');
+document.write('  <div class="nav-container">');
+document.write('    <a href="index.html" class="logo" style="background-image:url(images/MW-logo-1.png);">');
+document.write('    </a>');
+document.write('    <ul class="nav-links">');
+document.write('      <li><a href="projects.html" class="nav-menu-link projects-link">PROJECTS</a></li>');
+document.write('      <li><a href="mailto:wagnerdmike@gmail.com?Subject=Hi%20there!" target="_top" class="nav-menu-link contact-link">CONTACT</a></li>');
+document.write('    </ul>');
+document.write('    <a class="mobile-nav toggle-nav" href="#sidr">');
+document.write('      <ul class="nav-collapse">');
+document.write('        <li></li>');
+document.write('        <li></li>');
+document.write('        <li></li>');
+document.write('      </ul>');
+document.write('    </a>');
