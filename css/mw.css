@@ -236,7 +236,6 @@ a:hover {
   position: absolute;
   font-size: 0.8em;
   background-color: #FFFFFF;
-  /*bottom: 7;*/
   margin: 49px 9%;
 }
 
@@ -406,11 +405,7 @@ a:hover {
 }
 
 @media screen and (max-width: 825px) {
-/*  body {
-    min-height: 450px;
-  }*/
-
-  .featured-container {
+ .featured-container {
     width: 100%;
     height: 380%;
     margin-left: 10.2%;
@@ -510,15 +505,6 @@ a:hover {
 }
 
 @media screen and (max-width: 410px) {
-/*  body {
-    min-height: 600px;
-  }*/
-
-/*  .mission-statement {
-    width: 90%;
-    padding: 5px 6.1%;
-  }*/
-
   .projects-wrapper {
     height: 405px;
   }
