@@ -159,9 +159,12 @@ a:hover {
 }
 
 .main-img {
-  background: url(../images/coffee.jpg) no-repeat center;
+  background: url(../images/my-desk.jpg) no-repeat;
   background-size: 100%;
-  background-position: top center;
+  max-width: 1080px;
+  background-position: center center;
+  margin: 0 auto;
+  height: 450px;
 }
 
 .mission-statement {
@@ -220,19 +223,6 @@ a:hover {
   opacity: 1.0;
 }
 
-.featured-title {
-  text-align: center;
-  height: 87px;
-  background-color: #000000;
-  font-size: 1em;
-  color: #FFFFFF;
-  padding-top: 2px;
-}
-
-.featured-image:hover + .featured-title, .featured-title:hover {
-  color: #bababa;
-}
-
 .featured-site:hover .featured-image {
   opacity: 1;
   transition-duration: 0.7s;
@@ -240,13 +230,13 @@ a:hover {
 }
 
 .footer {
-  height: 14%;
+  height: 100px;
   width: 80.3%;
   border-top: solid thin #222;
   position: absolute;
   font-size: 0.8em;
   background-color: #FFFFFF;
-  bottom: 7;
+  /*bottom: 7;*/
   margin: 49px 9%;
 }
 
@@ -353,10 +343,6 @@ a:hover {
     margin-left: 3.5%;
   }
 
-  .mission-statement {
-    /*margin-bottom: 22%;*/
-  }
-
   .projects-wrapper {
     height: 450px;
   }
@@ -420,9 +406,9 @@ a:hover {
 }
 
 @media screen and (max-width: 825px) {
-  body {
+/*  body {
     min-height: 450px;
-  }
+  }*/
 
   .featured-container {
     width: 100%;
@@ -452,9 +438,12 @@ a:hover {
     width: 160px;
   }
 
-  .main-img {
-    height: 360px;
+    .main-img {
+    height: 45%;
+    margin-top: 15px;
+    background-position: top center;
   }
+
   .nav-container {
     padding: 0 0;
     width: 100%;
@@ -473,6 +462,12 @@ a:hover {
     padding: 0;
   }
 
+  .mission-statement {
+    font-size: 1.3em;
+    width: 270px;
+    margin: -103px auto;
+  }
+
   .projects-wrapper {
     height: 1820px;
   }
@@ -482,23 +477,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 560px) {
-  .main-img {
-    height: 263px;
-  }
-
-  .mission-statement {
-    font-size: 1.3em;
-    width: 270px;
-    margin: -94px auto;
-  }
-}
-
 @media screen and (max-width: 530px) {
-  body {
-    min-height: 500px;
-  }
-
   .featured-container {
     width: 100%;
     height: 245%;
@@ -531,14 +510,14 @@ a:hover {
 }
 
 @media screen and (max-width: 410px) {
-  body {
+/*  body {
     min-height: 600px;
-  }
+  }*/
 
-  .mission-statement {
+/*  .mission-statement {
     width: 90%;
     padding: 5px 6.1%;
-  }
+  }*/
 
   .projects-wrapper {
     height: 405px;
