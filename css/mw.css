@@ -190,7 +190,7 @@ a:hover {
 }
 
 .projects-wrapper {
-  height: 550px;
+  /*height: 550px;*/
 }
 
 .featured-site {
@@ -229,25 +229,12 @@ a:hover {
   transition-property: transform;
 }
 
-.footer {
-  height: 100px;
-  width: 80.3%;
-  border-top: solid thin #222;
-  position: absolute;
-  font-size: 0.8em;
-  background-color: #FFFFFF;
-  margin: 49px 9%;
-}
-
 .projects-footer {
-  height: 3%;
+  height: 1px;
   width: 80.3%;
-  border-top: solid thin #222;
-  position: absolute;
   font-size: 0.8em;
   background-color: #FFFFFF;
   margin: 0 auto;
-  top: 119%;
 }
 
 .copyright {
