@@ -1,4 +1,3 @@
-Sidr
-============
+michaelwagner.github.io/michael-wagner
 
-This is the Bower package for the Sidr jQuery Plugin. For a further description, documentation and others visit: [http://www.berriart.com/sidr](http://www.berriart.com/sidr)
+Michael Wagner's portfolio
