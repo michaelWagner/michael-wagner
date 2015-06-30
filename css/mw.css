@@ -167,6 +167,29 @@ a:hover {
   margin: 68px auto -35px;
 }
 
+.about {
+  margin-top: 10%;
+  /*height: 0;*/
+}
+
+.about-title {
+  height: 57px;
+  width: 244px;
+  margin: auto;
+}
+
+.about-image {
+  width: 205px;
+  height: 268px;
+  float: left;
+  padding: 15px;
+}
+
+.about-text {
+  width: 550px;
+  margin-left: 15px;
+}
+
 .mission-statement {
   font-size: 1.4em;
   height: 59px;
@@ -425,6 +448,15 @@ a:hover {
 @media screen and (max-width: 720px) {
   .main-img {
     height: 430px;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-text {
+    width:358px;
+    margin: auto;
   }
 }
 
