@@ -167,27 +167,31 @@ a:hover {
   margin: 68px auto -35px;
 }
 
-.about {
-  margin-top: 10%;
-  /*height: 0;*/
+.footer {
+  margin-top: 38px;
+  height: 50px;
 }
 
-.about-title {
-  height: 57px;
-  width: 244px;
+.footer-links {
+  width: 109px;
   margin: auto;
 }
 
-.about-image {
-  width: 205px;
-  height: 268px;
-  float: left;
-  padding: 15px;
+.link-button {
+  padding: 42px 0 0;
 }
 
-.about-text {
-  width: 550px;
-  margin-left: 15px;
+.github {
+  padding-right: 0px;
+  padding-left: 4px;
+}
+
+.link-button > img {
+  width: 48px;
+}
+
+.link-button:hover {
+  background-color: red;
 }
 
 .mission-statement {
@@ -591,6 +595,6 @@ a:hover {
   }
 
   .footer {
-    height: 0;
+    /*height: 0;*/
   }
 }
